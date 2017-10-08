@@ -1,7 +1,7 @@
 # Traffic Light Detection and Classification with TensorFlow Object Detection API
 ---
 
-AWS AMI with all the software dependencies like TensorFlow and Anaconda- udacity-carnd-advanced-deep-learning
+AWS AMI with all the software dependencies like TensorFlow and Anaconda (in the community AMIs) - `udacity-carnd-advanced-deep-learning`
 
 ### Get the dataset
 
@@ -24,6 +24,7 @@ Download the required model tar.gz files and untar them into `/tensorflow/models
 ### Creating TFRecord files:
 
 `python data_conversion_udacity_sim.py --output_path sim_data.record`
+
 `python data_conversion_udacity_real.py --output_path real_data.record`
 
 ---
