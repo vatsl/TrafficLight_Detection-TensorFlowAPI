@@ -40,17 +40,13 @@ Download the required model tar.gz files and untar them into `/tensorflow/models
 `python object_detection/train.py --pipeline_config_path=config/faster_rcnn-traffic-udacity_sim.config --train_dir=data/sim_training_data/sim_data_capture`
 
 #### Saving for Inference
-s
-`python object_detection/export_inference_graph.py --pipeline_config_path=config/faster_rcnn-traffic-udacity_sim.config --trained_checkpoint_prefix=data/sim_training_data/sim_data_capture/model.ckpt-5000 --output_directory=frozen_sim/`
 
-Old command (ignore this): `python object_detection/train.py --pipeline_config_path=/home/ubuntu/new_data/config/faster_rcnn-traffic-udacity_sim.config --train_dir=/home/ubuntu/new_data/data/sim_training_data/sim_data_capture`
+`python object_detection/export_inference_graph.py --pipeline_config_path=config/faster_rcnn-traffic-udacity_sim.config --trained_checkpoint_prefix=data/sim_training_data/sim_data_capture/model.ckpt-5000 --output_directory=frozen_sim/`
 
 
 ### For Real Data
 
 #### Training
-
-`python object_detection/train.py --pipeline_config_path=/home/ubuntu/new_data/config/faster_rcnn-traffic_udacity_real.config --train_dir=/home/ubuntu/new_data/data/real_training_data`
 
 `python object_detection/train.py --pipeline_config_path=config/faster_rcnn-traffic_udacity_real.config --train_dir=data/real_training_data`
 
