@@ -1,4 +1,23 @@
+[//]: # (Image References)
+[left0000]: ./examples/left0000.jpg
+[left0003]: ./examples/left0003.jpg
+[left0011]: ./examples/left0011.jpg
+[left0027]: ./examples/left0027.jpg
+[left0140]: ./examples/left0140.jpg
+[left0701]: ./examples/left0701.jpg
+
+[real0000]: ./examples/real0000.png
+[real0140]: ./examples/real0140.png
+[real0701]: ./examples/real0701.png
+[sim0003]: ./examples/sim0003.png
+[sim0011]: ./examples/sim0011.png
+[sim0027]: ./examples/sim0027.png
+
 # Traffic Light Detection and Classification with TensorFlow Object Detection API
+---
+
+#### A brief introduction to the project is available [here](https://medium.com/@Vatsal410/traffic-light-detection-tensorflow-api-c75fdbadac62)
+
 ---
 
 AWS AMI with all the software dependencies like TensorFlow and Anaconda (in the community AMIs) - `udacity-carnd-advanced-deep-learning`
@@ -13,7 +32,7 @@ Do `git clone https://github.com/tensorflow/models.git` inside the tensorflow di
 
 Follow the instructions at [this page](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) for installing some simple dependencies.
 
-*All the files have to be kept inside the `tensorflow/models/research/` directory - data/, config/, data_conversion python files, .record files and utilitites/ ,etc. *
+**All the files have to be kept inside the `tensorflow/models/research/` directory - data/, config/, data_conversion python files, .record files and utilitites/ ,etc. **
 
 
 ### Location of pre-trained models:
@@ -107,7 +126,30 @@ Download the required model tar.gz files and untar them into `/tensorflow/models
 
 ---
 
-*Inference results can be viewed using the 
+**Inference results can be viewed using the TrafficLightDetection-Inference.ipynb or .html files.**
+
+Examples of the training images:
+
+### Camera Image and Model's Detections      
+![alt-text][left0000]
+![alt-text][real0000]
+
+![alt-text][left0140]
+![alt-text][real0140]
+
+![alt-text][left0701]
+![alt-text][real0701]
+
+![alt-text][left0003]
+![alt-text][sim0003]
+
+![alt-text][left0011]
+![alt-text][sim0011]
+
+![alt-text][left0027]
+![alt-text][sim0027]
+
+---
 
 #### Some useful links
 
