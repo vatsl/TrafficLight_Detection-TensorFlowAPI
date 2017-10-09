@@ -128,8 +128,6 @@ Download the required model tar.gz files and untar them into `/tensorflow/models
 
 **Inference results can be viewed using the TrafficLightDetection-Inference.ipynb or .html files.**
 
-Examples of the training images:
-
 ### Camera Image and Model's Detections      
 ![alt-text][left0000]
 ![alt-text][real0000]
