@@ -32,7 +32,7 @@ Do `git clone https://github.com/tensorflow/models.git` inside the tensorflow di
 
 Follow the instructions at [this page](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) for installing some simple dependencies.
 
-**All the files have to be kept inside the `tensorflow/models/research/` directory - data/, config/, data_conversion python files, .record files and utilitites/ ,etc. **
+**All the files have to be kept inside the `tensorflow/models/research/` directory - data/, config/, data_conversion python files, .record files and utilitites/ ,etc.**
 
 
 ### Location of pre-trained models:
