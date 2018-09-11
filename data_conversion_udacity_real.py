@@ -5,7 +5,7 @@ Usage: python data_conversion_udacity_real.py --output_path output_file_name.rec
 import tensorflow as tf
 import yaml
 import os
-from utilities import dataset_util
+from utils import dataset_util
 
 
 flags = tf.app.flags
